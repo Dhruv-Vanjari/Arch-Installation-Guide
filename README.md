@@ -64,9 +64,13 @@ Set the hardware clock
 hwclock --systohc
 ```
 
-Edit /etc/locale.gen and uncomment the following line
+Edit `/etc/locale.gen` and uncomment the following line
 ```
 en_US.UTF-8 UTF-8
+```
+Run the following command for UTF-8 support in LXterminal
+```
+echo LANG="en_US.UTF-8" > /etc/locale.conf
 ```
 Then run `locale-gen`
 
