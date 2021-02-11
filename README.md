@@ -154,13 +154,13 @@ echo exec=/usr/bin/i3 > /home/your-username/.xinitrc
 Now you can type `startx` to start the graphical environment
 > Install `xf86-video-intel` if startx fails
 
-Alternative to i3 would be 'lxde', simply type the following commands to install lxde
+Alternative to i3 would be `lxde`, simply type the following commands to install lxde
 ```
 pacman -S lxde
 echo exec=/usr/bin/startlxde > /home/your-username/.xinitrc
 ```
 
-Umount and restart
+Umount and reboot
 ------------------
 ```
 umount /mnt/home
